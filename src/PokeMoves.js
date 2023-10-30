@@ -7,7 +7,7 @@ const PokeMoves = () => {
             <h1 className="poke-move-card">PokeMoves</h1>
             <ul>
                 {moves.map(item => {
-                    <li key={item.d}>
+                    <li>
                         {item.id}. {item.move}
                     </li>
                 })}
