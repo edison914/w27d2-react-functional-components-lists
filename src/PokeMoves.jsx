@@ -6,11 +6,11 @@ const PokeMoves = () => {
         <div>
             <h1 className="poke-move-card">PokeMoves</h1>
             <ul>
-                {moves.map(item => {
+                {moves.map(item => (
                     <li>
                         {item.id}. {item.move}
                     </li>
-                })}
+                ))}
             </ul>
         </div>
     )
