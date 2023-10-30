@@ -1,10 +1,10 @@
-import "./PokeMoves.css";
+import "./PokeMoveCard.css";
 import moves from "./data"
 
 const PokeMoves = () => {
     return (
         <div>
-            <h1>PokeMoves</h1>
+            <h1 className="poke-move-card">PokeMoves</h1>
             <ul>
                 {moves.map(item => {
                     <li key={item.d}>
