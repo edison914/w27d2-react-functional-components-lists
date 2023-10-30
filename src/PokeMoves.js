@@ -1,5 +1,5 @@
 import "./PokeMoveCard.css";
-import moves from "./data"
+import { moves } from "./data"
 
 const PokeMoves = () => {
     return (
